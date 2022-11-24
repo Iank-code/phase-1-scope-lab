@@ -2,14 +2,12 @@
 
 /* declare customerName to be bob in global scope */
 var customerName = 'bob'
-var bestCustomer
-const leastFavoriteCustomer = 'michelle'
 
-function upperCaseCustomerName(){
-    return customerName.toUpperCase()
-    // return console.log(`${upperName}`)
+function upperCaseCustomerName() {
+    return customerName = customerName.toUpperCase();
 }
-upperCaseCustomerName()
+// var bestCustomer
+const leastFavoriteCustomer = 'michelle'
 
 
 //setBestCustomer
